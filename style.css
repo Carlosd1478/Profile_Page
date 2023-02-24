@@ -1,0 +1,190 @@
+/* Main Utilitys */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.flex-start {
+    justify-content: flex-start;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+.count {
+    padding: 5px 10px;
+    background-color: lightgray;
+    border-radius: 50%;
+
+}
+main {
+    flex: 2;
+}
+
+aside {
+    flex:1;
+}
+
+/* nav bar */
+.nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-title {
+    color: white;
+}
+
+.nav-links {
+    color: white;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav button {
+    color: white;
+    font-size: 15px;
+    background-color: rgb(24, 95, 95);
+    height: 40px;
+    width: 80px;
+}
+
+/* ----------jane doe--------- */
+
+.card {
+    background-color: white;
+    outline: solid grey 2px;
+    margin-bottom: 20px;
+}
+
+.blue-bar {
+    background-color: rgb(23,162,184);
+    height: 50px;
+    
+}
+
+.pic1 {
+    width: 70px;
+    position: relative;
+    top: 12px;
+    left: 20px;
+    border: white solid 2px;
+    border-radius: 50%;
+    outline: grey solid 2px;
+}
+
+.whitebox {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.whitebox h1 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.seattle {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.pic2 {
+    width: 8px;
+    margin-right: 8px;
+}
+
+/* Jane Doe bio */
+.bio1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.bio2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.pic3 {
+    width: 13px;
+}
+
+.pic3 a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+}
+
+/* Education  */
+.education {
+    width: 400px;
+    background-color: white;
+    outline: solid grey 2px;
+}
+
+.blackbar {
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.codingdojo {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.dec19 {
+    font-size: 15px;
+    color: gray;
+    padding: 10px;
+}
+
+.triplebelt {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.viewmore {
+    font-size: 15px;
+    background-color: white;
+    outline: gray solid 2px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: -20px;
+    margin-bottom: -20px;
+}
